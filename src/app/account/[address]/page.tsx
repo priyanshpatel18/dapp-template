@@ -6,7 +6,7 @@ import { PublicKey } from "@solana/web3.js";
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
 
-export default function page() {
+export default function Page() {
   const params = useParams()
 
   const address = useMemo(() => {

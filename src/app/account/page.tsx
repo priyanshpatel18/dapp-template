@@ -4,7 +4,7 @@ import { WalletButton } from "@/components/WalletButton";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { redirect } from "next/navigation";
 
-export default function page() {
+export default function Page() {
   const { publicKey } = useWallet();
 
   if (publicKey) {
