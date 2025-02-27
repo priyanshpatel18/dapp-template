@@ -220,7 +220,7 @@ function SendDialog({ address, setOpenDialog }: { address: PublicKey, setOpenDia
           step="any"
           min={0.1}
           max={2}
-          placeholder="Amount (Max: 2 SOL)"
+          placeholder="Amount"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
