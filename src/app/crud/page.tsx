@@ -1,6 +1,6 @@
 "use client";
 
-import { CrudInitialize } from "@/components/crud/crud-ui";
+import { CrudAccounts, CrudInitialize } from "@/components/crud/crud-ui";
 import { WalletButton } from "@/components/WalletButton";
 import { montserrat } from "@/lib/fonts";
 
@@ -11,6 +11,7 @@ export default function page() {
 
       <WalletButton />
       <CrudInitialize />
+      <CrudAccounts />
     </div>
   )
 }
